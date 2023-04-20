@@ -19,8 +19,8 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
 unsigned long epochTime = timeClient.getEpochTime();
 struct tm *ptm = gmtime ((time_t *)&epochTime);
 
-const char* ssid = "joes crab shack";  
-const char* password = "crabbyladdy22"; 
+const char* ssid = "";  
+const char* password = ""; 
 
 ESP8266WebServer server(80);
 
