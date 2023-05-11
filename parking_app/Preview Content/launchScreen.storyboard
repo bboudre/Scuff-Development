@@ -53,7 +53,7 @@
     <resources>
         <image name="car.circle" catalog="system" width="128" height="123"/>
         <namedColor name="Crimson">
-            <color red="0.50196081400000003" green="0.12549020350000001" blue="0.2588235438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.50199997425079346" green="0.125" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

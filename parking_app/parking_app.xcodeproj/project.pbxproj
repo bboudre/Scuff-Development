@@ -11,11 +11,21 @@
 		2691946B29E7ADA000FD56E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946A29E7ADA000FD56E9 /* DetailView.swift */; };
 		2691946D29E7AE3100FD56E9 /* CampusMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946C29E7AE3100FD56E9 /* CampusMap.swift */; };
 		2691946F29E7AE5F00FD56E9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691946E29E7AE5F00FD56E9 /* Settings.swift */; };
+		26FCA9E22A0BA6FA00803CDE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9E12A0BA6FA00803CDE /* MapView.swift */; };
+		26FCA9E62A0BAB8F00803CDE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9E52A0BAB8F00803CDE /* LocationManager.swift */; };
+		26FCA9ED2A0BB6A000803CDE /* LocationSearchActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9EC2A0BB6A000803CDE /* LocationSearchActiveView.swift */; };
+		26FCA9EF2A0BD20C00803CDE /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9EE2A0BD20C00803CDE /* NavView.swift */; };
+		26FCA9F12A0BD4CF00803CDE /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9F02A0BD4CF00803CDE /* LocationSearchViewModel.swift */; };
+		26FCA9F32A0BDF4600803CDE /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9F22A0BDF4600803CDE /* viewController.swift */; };
+		26FCA9F92A0C569A00803CDE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9F82A0C569A00803CDE /* MapViewActionButton.swift */; };
+		26FCA9FB2A0C643200803CDE /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9FA2A0C643200803CDE /* LocationSearchView.swift */; };
+		26FCA9FD2A0C6B6600803CDE /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCA9FC2A0C6B6600803CDE /* LocationSearchResultsCell.swift */; };
+		26FCAA012A0CB4A100803CDE /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCAA002A0CB4A100803CDE /* MapViewState.swift */; };
+		26FCAA032A0CF59000803CDE /* ParkingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCAA022A0CF59000803CDE /* ParkingCounter.swift */; };
 		EE3AEE2629E3B17C00F88061 /* parking_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */; };
 		EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE2729E3B17C00F88061 /* ContentView.swift */; };
 		EE3AEE2A29E3B17D00F88061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEE2929E3B17D00F88061 /* Assets.xcassets */; };
 		EE3AEE2D29E3B17D00F88061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */; };
-		EE3AEE3429E3BAE600F88061 /* pageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEE3329E3BAE600F88061 /* pageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +33,23 @@
 		2691946A29E7ADA000FD56E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2691946C29E7AE3100FD56E9 /* CampusMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMap.swift; sourceTree = "<group>"; };
 		2691946E29E7AE5F00FD56E9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		26FCA9E12A0BA6FA00803CDE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		26FCA9E52A0BAB8F00803CDE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		26FCA9EC2A0BB6A000803CDE /* LocationSearchActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActiveView.swift; sourceTree = "<group>"; };
+		26FCA9EE2A0BD20C00803CDE /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		26FCA9F02A0BD4CF00803CDE /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		26FCA9F22A0BDF4600803CDE /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
+		26FCA9F82A0C569A00803CDE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		26FCA9FA2A0C643200803CDE /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		26FCA9FC2A0C6B6600803CDE /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
+		26FCA9FE2A0C8AB400803CDE /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		26FCAA002A0CB4A100803CDE /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		26FCAA022A0CF59000803CDE /* ParkingCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCounter.swift; sourceTree = "<group>"; };
 		EE3AEE2229E3B17C00F88061 /* parking_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parking_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parking_appApp.swift; sourceTree = "<group>"; };
 		EE3AEE2729E3B17C00F88061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE3AEE2929E3B17D00F88061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE3AEE3329E3BAE600F88061 /* pageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,12 +63,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE3AEE1929E3B17C00F88061 = {
+		26FCA9E42A0BAAFF00803CDE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				26FCA9E52A0BAB8F00803CDE /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		26FCA9E92A0BB5EB00803CDE /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				26FCA9FA2A0C643200803CDE /* LocationSearchView.swift */,
+				26FCA9FC2A0C6B6600803CDE /* LocationSearchResultsCell.swift */,
+				26FCA9EC2A0BB6A000803CDE /* LocationSearchActiveView.swift */,
+				26FCA9F02A0BD4CF00803CDE /* LocationSearchViewModel.swift */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		26FCA9F52A0C560400803CDE /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				26FCAA002A0CB4A100803CDE /* MapViewState.swift */,
+				26FCA9F82A0C569A00803CDE /* MapViewActionButton.swift */,
+				26FCA9E12A0BA6FA00803CDE /* MapView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		26FCA9FF2A0C976400803CDE /* Scrap */ = {
 			isa = PBXGroup;
 			children = (
 				2691946A29E7ADA000FD56E9 /* DetailView.swift */,
-				2691946C29E7AE3100FD56E9 /* CampusMap.swift */,
-				2691946E29E7AE5F00FD56E9 /* Settings.swift */,
+				26FCA9F22A0BDF4600803CDE /* viewController.swift */,
+			);
+			path = Scrap;
+			sourceTree = "<group>";
+		};
+		EE3AEE1929E3B17C00F88061 = {
+			isa = PBXGroup;
+			children = (
+				26FCA9FE2A0C8AB400803CDE /* ReadMe.md */,
+				26FCA9FF2A0C976400803CDE /* Scrap */,
 				EE3AEE2429E3B17C00F88061 /* parking_app */,
 				EE3AEE2329E3B17C00F88061 /* Products */,
 			);
@@ -64,9 +122,12 @@
 		EE3AEE2429E3B17C00F88061 /* parking_app */ = {
 			isa = PBXGroup;
 			children = (
+				26FCAA022A0CF59000803CDE /* ParkingCounter.swift */,
 				EE3AEE2529E3B17C00F88061 /* parking_appApp.swift */,
+				26FCA9F52A0C560400803CDE /* Maps */,
+				26FCA9E92A0BB5EB00803CDE /* LocationSearch */,
 				EE3AEE3529E3BB3800F88061 /* Views */,
-				EE3AEE2929E3B17D00F88061 /* Assets.xcassets */,
+				26FCA9E42A0BAAFF00803CDE /* Managers */,
 				EE3AEE2B29E3B17D00F88061 /* Preview Content */,
 			);
 			path = parking_app;
@@ -75,6 +136,8 @@
 		EE3AEE2B29E3B17D00F88061 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2691946029E6AC4400FD56E9 /* launchScreen.storyboard */,
+				EE3AEE2929E3B17D00F88061 /* Assets.xcassets */,
 				EE3AEE2C29E3B17D00F88061 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -83,9 +146,10 @@
 		EE3AEE3529E3BB3800F88061 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2691946C29E7AE3100FD56E9 /* CampusMap.swift */,
+				2691946E29E7AE5F00FD56E9 /* Settings.swift */,
 				EE3AEE2729E3B17C00F88061 /* ContentView.swift */,
-				EE3AEE3329E3BAE600F88061 /* pageView.swift */,
-				2691946029E6AC4400FD56E9 /* launchScreen.storyboard */,
+				26FCA9EE2A0BD20C00803CDE /* NavView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,12 +225,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FCA9E22A0BA6FA00803CDE /* MapView.swift in Sources */,
 				2691946F29E7AE5F00FD56E9 /* Settings.swift in Sources */,
-				EE3AEE3429E3BAE600F88061 /* pageView.swift in Sources */,
 				2691946B29E7ADA000FD56E9 /* DetailView.swift in Sources */,
+				26FCAA012A0CB4A100803CDE /* MapViewState.swift in Sources */,
+				26FCA9F12A0BD4CF00803CDE /* LocationSearchViewModel.swift in Sources */,
+				26FCA9E62A0BAB8F00803CDE /* LocationManager.swift in Sources */,
 				2691946D29E7AE3100FD56E9 /* CampusMap.swift in Sources */,
 				EE3AEE2829E3B17C00F88061 /* ContentView.swift in Sources */,
+				26FCA9F92A0C569A00803CDE /* MapViewActionButton.swift in Sources */,
+				26FCA9EF2A0BD20C00803CDE /* NavView.swift in Sources */,
+				26FCA9ED2A0BB6A000803CDE /* LocationSearchActiveView.swift in Sources */,
+				26FCAA032A0CF59000803CDE /* ParkingCounter.swift in Sources */,
+				26FCA9F32A0BDF4600803CDE /* viewController.swift in Sources */,
 				EE3AEE2629E3B17C00F88061 /* parking_appApp.swift in Sources */,
+				26FCA9FB2A0C643200803CDE /* LocationSearchView.swift in Sources */,
+				26FCA9FD2A0C6B6600803CDE /* LocationSearchResultsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +369,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"parking_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QS67LDMCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Aggie Park";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location for GPS navigation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,9 +401,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"parking_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QS67LDMCK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Aggie Park";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location for GPS navigation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

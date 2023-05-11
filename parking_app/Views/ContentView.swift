@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         NavigationView{
@@ -16,7 +17,7 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .padding(.bottom, 108.0)
                 
-                NavigationLink(destination: DetailView() ) {
+                NavigationLink(destination: NavView() ) {
                     Text("Find Parking")
                         .frame(minWidth: 0, maxWidth: .infinity)
                         .padding()
