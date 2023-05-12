@@ -7,10 +7,8 @@ Application "Aggie Park" that helps you find parking with GPS tracking based on 
 Patrick Jojola, Bianka Boudreaux, Rey Aguirre
 
 ## Links
-### Project Site
-[Project Site](https://bboudre.github.io/SC-Project-Site/)
-### App Repo (Explains Folder Structure of Aggie Park)
-[Parking App](https://github.com/pjojola/Parking_App_CS)
+- [Project Site](https://bboudre.github.io/SC-Project-Site/)
+- [App Repo (Explains Folder Structure of Aggie Park)](https://github.com/pjojola/Parking_App_CS)
 
 ## ★Current Project Status★ [May 2023]
 Due to the time given for the project, the Arduino, web server, and application run independently of each other. 
@@ -31,6 +29,8 @@ Due to the time given for the project, the Arduino, web server, and application 
 **Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
 * If troubleshooting works connect Arduino and web server to communicate with app 
 * Otherwise research for a more efficient mechanism to detecting open/free parking spots
+* If we had the capital researched into making their own microcontroller design / or also go the route of Raspberry pi
+
 
 ### Developers' Note
 Much work/research and time are required for further development of the app. We will continue to work on this app outside of the initial time given, to hopefully succeed in all functional components working. 
